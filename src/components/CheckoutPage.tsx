@@ -1,4 +1,4 @@
-import React, { useState, useEffect, type FormEvent } from 'react'; // Добавили type FormEvent
+import { useState, useEffect, type FormEvent } from 'react'; // Добавили type FormEvent
 import { ArrowLeft, CheckCircle2, Package, ArrowRight, ShieldCheck, CreditCard, Loader2 } from 'lucide-react';
 import { useProductStore } from '../store/useProductStore';
 
